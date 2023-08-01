@@ -14,7 +14,7 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.light-service.mediatek",
+    name: "android.hardware.lights-service.mediatek",
     init_rc: ["android.hardware.light-service.mediatek.rc"],
     vintf_fragments: ["android.hardware.light-service.mediatek.xml"],
     relative_install_path: "hw",
